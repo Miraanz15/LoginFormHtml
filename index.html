@@ -46,6 +46,21 @@
         <br />
         <input type="password" name="Password" id="password" required />
         <br />
+        <label for="group">Select Group</label> <br />
+        <input list="xyz" name="Group" id="group" required />
+        <datalist id="xyz">
+          <option value="A"></option>
+          <option value="B"></option>
+          <option value="C"></option>
+        </datalist>
+        <br />
+        <label for="gender">Gender</label>
+        <select name="Gender" required>
+          <option value="">--Select--</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <br />
         <input type="checkbox" name="Conditions" value="true" required />
         <span>Agree to Terms and Conditions</span>
         <br />
